@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blaise & Sheron | Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body background:"background.mp4">
+
+
+<div class="sparkle-background" aria-hidden="true">
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+</div>
+
+
+  <!-- OPENING ENVELOPE -->
+  
+<div id="cover" class="envelope-screen">
+    <div class="envelope">
+        <div class="envelope-back"></div>
+
+        <div class="envelope-letter">
+            <p class="letter-small">TOGETHER WITH THEIR FAMILIES</p>
+            <h1>Blaise <span>&</span> Sheron</h1>
+            <p class="letter-date">19 · 12 · 2026</p>
+            <div class="letter-divider">♥</div>
+            <p class="letter-invite">Cordially Invites You</p>
+        </div>
+
+        <div class="envelope-flap"></div>
+        <div class="envelope-front"></div>
+
+        <div class="envelope-decoration decoration-left">❀</div>
+        <div class="envelope-decoration decoration-right">❀</div>
+
+        <button id="openButton" class="wax-seal"
+                aria-label="Open wedding invitation">
+            <span class="seal-heart">♥</span>
+            <span class="seal-label">OPEN</span>
+        </button>
+    </div>
+
+    <p class="envelope-hint">A little envelope, a lifetime of love</p>
+</div>
+
+  
+<!-- Wedding Countdown -->
+<section class="countdown-section">
+    <p class="section-label">THE BIG DAY IS APPROACHING</p>
+    <h2>Blaise <span>&</span> Sheron</h2>
+    <p class="countdown-date">19 December 2026</p>
+
+    <div class="countdown" id="weddingCountdown">
+        <div class="countdown-box">
+            <strong id="days">00</strong>
+            <small>Days</small>
+        </div>
+        <div class="countdown-box">
+            <strong id="hours">00</strong>
+            <small>Hours</small>
+        </div>
+        <div class="countdown-box">
+            <strong id="minutes">00</strong>
+            <small>Minutes</small>
+        </div>
+        <div class="countdown-box">
+            <strong id="seconds">00</strong>
+            <small>Seconds</small>
+        </div>
+    </div>
+
+    <p class="countdown-message">
+        Two hearts. One promise. A lifetime of love.
+    </p>
+</section>
+
+
+  <!-- WEDDING INVITATION -->
+  <main id="invitation" class="hidden">
+
+    <div class="music-bar">
+      <audio id="weddingMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!-- SAVE THE DATE -->
+    <section class="hero" id="top">
+      <div class="cross">✝</div>
+      <p class="eyebrow">Save the Date</p>
+      <h2 class="script">Blaise <span>&amp;</span> Sheron</h2>
+      <div class="ornament">— ♥ —</div>
+      <p class="date">19 · 12 · 2026</p>
+      <p>Saturday · Thane</p>
+      <a href="#ceremonies" class="text-link">Celebrate with us</a>
+    </section>
+
+    <!-- FAMILY DETAILS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Two families, one celebration</p>
+          <h2>With the Blessings of Our Families</h2>
+          <div class="ornament">✧ ♥ ✧</div>
+        </div>
+
+        <div class="family-grid">
+          <article class="family-card">
+            <h3>Groom's Family</h3>
+            <p>
+              <strong>Mr. &amp;Augustine I. Fernandes</strong><br>
+              &amp;,<br>
+              <strong>Mrs. Asesaon Fernandes</strong><br>
+            </p>
+            <p>
+              Swastik Park, C Wing,<br>
+              Brahmand, Ghodbunder Road,<br>
+              Thane
+            </p>
+          </article>
+
+          <article class="family-card">
+            <h3>Bride's Family</h3>
+            <p>
+              <strong>Mr.Albert Lobo</strong><br>
+              &amp;,<br>
+              <strong>Mrs.Clera Lobo</strong><br>
+            </p>
+            <p>
+              Divine Mercy Church, Kalher,<br>
+              725, Flat 304, Krupa Apartment,<br>
+              Kasheli
+            </p>
+          </article>
+        </div>
+
+        <p class="welcome">
+          With hearts full of love ♥, we invite you &amp; your family
+          to celebrate ✨ our special day with us! 💍 As we begin this
+          beautiful journey together, your presence, love, and
+          blessings would mean the world to us.
+        </p>
+
+        <p class="script family-signoff">
+          With Love,<br>
+          Fernandes &amp; Lobo Family
+        </p>
+      </div>
+    </section>
+
+    <!-- THE COUPLE -->
+    <section class="couple-section">
+      <div class="container couple-grid">
+        <div>
+          <h2 class="script couple-name">Blaise Fernandes</h2>
+          <p class="role">GROOM</p>
+        </div>
+        <div class="ampersand">&amp;</div>
+        <div>
+          <h2 class="script couple-name">Sheron Lobo</h2>
+          <p class="role">BRIDE</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CEREMONIES -->
+    <section class="section tinted" id="ceremonies">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Join us for our celebrations</p>
+          <h2>Wedding Celebrations</h2>
+          <div class="ornament">— ♥ —</div>
+        </div>
+        <!-- Wedding Journey -->
+<section class="journey-section">
+    <p class="section-label">OUR SPECIAL MOMENTS</p>
+    <h2>The Wedding Journey</h2>
+
+    <div class="journey-line">
+        <div class="journey-card">
+            <span class="journey-icon">✦</span>
+            <p class="eyebrow">A Goan tradition</p>
+            <h3>Roce Ceremony of Blaise</h3>
+            <p>At Family Home</p>
+            <p class="event-time">At 6:30 PM</p>
+            <div class="event-date">
+              <span class="event-day">17</span>
+              <span>Thursday<br>December 2026</span>
+            </div>
+        </div>
+
+        <div class="journey-card">
+            <span class="journey-icon">♡</span>
+            < <p class="eyebrow">A Goan tradition</p>
+            <h3>Roce Ceremony of Sheron</h3>
+            <p>At Family Home</p>
+            <p class="event-time">At 6:30 PM</p>
+            <div class="event-date">
+              <span class="event-day">18</span>
+              <span>Friday<br>December 2026</span>
+            </div>
+        </div>
+
+        <div class="journey-card">
+            <span class="journey-icon">✝</span>
+            <<p class="eyebrow">The Sacrament of Marriage</p>
+            <h3>Wedding Ceremony</h3>
+            <p>Our Lady of Fatima Church,<br>Majiwada</p>
+            <p class="event-time">At 4:00 PM</p>
+            <div class="event-date">
+              <span class="event-day">19</span>
+              <span>Saturday<br>December 2026</span>
+            </div>
+        </div>
+
+        <div class="journey-card">
+            <span class="journey-icon">✧</span>
+            <p class="eyebrow">Let the celebration continue</p>
+            <h3>Wedding Reception</h3>
+            <p>Prisha Banquets</p>
+            <p class="event-time">At 6:30 PM</p>
+            <div class="event-date">
+              <span class="event-day">19</span>
+              <span>Saturday<br>December 2026</span>
+            </div>
+        </div>
+    </div>
+</section>
+        </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Little moments, lasting memories</p>
+          <h2>Photo Gallery</h2>
+          <div class="ornament">✧ ♥ ✧</div>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Wedding floral decorations" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80" alt="Wedding couple" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80" alt="Wedding details" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=800&q=80" alt="Wedding decorations" loading="lazy">
+          <img src="BS.png" alt="Wedding celebration" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&w=800&q=80" alt="Wedding ceremony" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- CALENDAR AND VENUE -->
+    <section class="section tinted">
+      <div class="container details-grid">
+
+        <article class="details-card">
+          <p class="eyebrow">Save the Date</p>
+          <h2>The Wedding Will Take Place On</h2>
+          <h3>December 2026</h3>
+          <div class="calendar" id="calendar" aria-label="December 2026 calendar"></div>
+          <p class="calendar-caption">Saturday, 19 December 2026</p>
+        </article>
+
+        <article class="details-card">
+          <p class="eyebrow">Celebrate with us</p>
+          <h2>Reception Venue</h2>
+          <p class="venue-address">
+            <strong>Prisha Banquet</strong><br>
+            4th Floor, Ovala Naka,<br>
+            Thane West
+          </p>
+
+          <iframe
+            class="map"
+            title="Map showing Prisha Banquet"
+            loading="lazy"
+            src="https://maps.google.com/maps?q=Prisha%20Banquet%2C%204th%20Floor%2C%20Ovala%20Naka%2C%20Thane%20West&output=embed">
+          </iframe>
+
+          <a
+            class="button map-button"
+            href="https://www.google.com/maps/search/?api=1&query=Prisha+Banquet%2C+4th+Floor%2C+Ovala+Naka%2C+Thane+West"
+            target="_blank"
+            rel="noopener noreferrer">
+            Open in Google Maps ↗
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DRESS CODE -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A palette for our day</p>
+          <h2>Dress Code</h2>
+          <div class="ornament">— ♥ —</div>
+        </div>
+
+        <div class="dress-code">
+          <div class="dress-option">
+            <span class="colour-circle rust"></span>
+            <span>Rust</span>
+          </div>
+          <div class="dress-option">
+            <span class="colour-circle beige"></span>
+            <span>Beige</span>
+          </div>
+          <div class="dress-option">
+            <span class="colour-circle white"></span>
+            <span>White</span>
+          </div>
+        </div>
+
+        <p class="dress-note">Celebrate with us in rust, beige, or white.</p>
+      </div>
+    </section>
+
+    <!-- WEDDING DAY TIMELINE -->
+    <section class="section tinted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Let the celebration begin</p>
+          <h2>Wedding Day Schedule</h2>
+          <div class="ornament">✧ ♥ ✧</div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <time>5:30 PM</time>
+            <p>Welcoming the Bride and Groom</p>
+          </div>
+          <div class="timeline-item">
+            <time>6:30 PM</time>
+            <p>Cutting of the cake</p>
+          </div>
+          <div class="timeline-item">
+            <time>6:45 PM</time>
+            <p>Raising the toast</p>
+          </div>
+          <div class="timeline-item">
+            <time>7:00 PM</time>
+            <p>
+              First wedding dance!<br>
+              Evening of Music and Dancing!<br>
+              It's time for some pictures!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Final Wedding Message -->
+<section class="love-finale">
+    <div class="finale-heart">♥</div>
+    <p class="script closing-message">
+        Your presence would be the greatest gift we could receive!
+      </p>
+    <p class="section-label">WITH LOVE,</p>
+    <h2>Blaise <span>&</span> Sheron</h2>
+     <h3> Fernandes &amp; Lobo Family</h3>
+    <p>
+        A new chapter, a shared forever.
+        Thank you for being part of our story.
+    </p>
+    <p class="finale-date">19 · 12 · 2026</p>
+</section>
+
+    </footer>
+
+  </main>
+</body>
+</html>
